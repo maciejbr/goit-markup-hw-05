@@ -316,6 +316,16 @@ header {
   margin-bottom: 8px;
 }
 
+.heading-team {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
 .heading-three {
   font-size: 36px;
   line-height: 1.11;
@@ -359,7 +369,7 @@ header {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  text-align: center;
+  text-align: left;
 }
 
 .button {
