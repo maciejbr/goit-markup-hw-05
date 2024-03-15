@@ -727,6 +727,9 @@ header {
 .textarea-modal:focus {
   border-color: #4d5ae5;
 }
+.textarea-modal::placeholder {
+  /*what to write here?*/
+}
 
 .div-modal-five {
   margin-bottom: 24px;
