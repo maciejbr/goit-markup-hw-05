@@ -777,6 +777,7 @@ header {
 .button-modal-six:hover {
   background-color: #404bbf;
   border: none;
+  fill: #ffffff;
 }
 
 .modal-check:checked + .label-modal-five span {
