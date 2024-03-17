@@ -138,10 +138,14 @@ header {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #404bbf; /* #2e2f42; */
+  color: #2e2f42;
   padding: 24px 0 24px;
   position: relative;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.active-link {
+  color: #404bbf;
 }
 
 .active-link::after {
@@ -429,6 +433,7 @@ header {
 
 .portfolio-li:hover .portfolio-box-p {
   transform: translateY(0%);
+  cursor: pointer;
 }
 
 .portfolio-li:focus .portfolio-box-p {
